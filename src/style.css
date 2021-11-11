@@ -1,13 +1,21 @@
 /* styles go here */
 fieldset {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .form-field {
   display: block;
-  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-field:last-child {
+  margin-bottom: 0;
 }
 
 .hidden {
   display: none;
+}
+
+#age {
+  width: 65px;
 }
